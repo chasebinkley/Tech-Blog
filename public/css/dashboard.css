@@ -1,6 +1,10 @@
+body {
+  background-color: #ccdad1;
+}
+
 .collapsible {
-  background-color: #eee;
-  color: rgb(40, 136, 255);
+  background-color: black;
+  color: rgb(255, 255, 255);
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -10,16 +14,31 @@
   font-size: 15px;
 }
 
-
 .active,
 .collapsible:hover {
-  background-color: #ccc;
+  background-color: black;
 }
-
 
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #8cbb9d;
+}
+
+.topnav {
+  background-color: black;
+}
+
+a {
+  color: #ccdad1;
+}
+
+p {
+  padding-right: 50px;
+  background-color: #ccdad1;
+  color: black;
+  font-size: 50px;
+  border-style:ridge;
+  border-width: 10px;
 }
